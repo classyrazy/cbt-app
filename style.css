@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    justify-content: center;
+    padding: 10%;
+    background-color: #02314b;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif!important;
+}
+.container{
+    border: white solid 4px;
+    padding: 50px;
+}
+p{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+button{
+    padding: 3%;
+    margin: 2%;
+}
+.control-btn button{
+    background: #0a8acf;
+    color: #000; 
+
+}
+.control-btn button:hover{
+    background-color: #b4a9a9bb;
+}
+.result-btn{
+    display: none;
+}
+h2{
+    font-size: 5rem;
+    color: #c8f5f0;
+}
+.score{
+    color: #ffffffca;
+    font-size: 4rem;
+}
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
